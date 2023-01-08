@@ -1,6 +1,6 @@
 ﻿--Tytuł: Funkcja do weryfikacji poprawności numeru PESEL
 --Autor: Adam Bernaś
---Update: 08-01-2022
+--Update: 08-01-2023
 --Wersja: 1.3
 --Opis: 
 --Funkcja weryfikuje PESEL pod względem poprawności poprzez sprawdzenie cyfry kontrolnej metodą określoną w rozporządzeniu Ministra Spraw Wewnętrznych.

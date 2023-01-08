@@ -1,5 +1,5 @@
-# SQL_Procedures_And_Functions
+ï»¿# SQL_Procedures_And_Functions
 
 Repozytorium: SQL_Procedures_And_Functions
 
-W tej czêœci zamieszczam ró¿ne funcjonalne i u¿yteczne funkcjê oraz procedury napisane w jêzyku T-SQL
+W tej czÄ™Å›ci zamieszczam rÃ³Å¼ne funcjonalne i uÅ¼yteczne funkcjÄ™ oraz procedury napisane w jÄ™zyku T-SQL

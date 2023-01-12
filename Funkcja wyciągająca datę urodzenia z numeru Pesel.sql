@@ -15,9 +15,9 @@ RETURNS DATE
 AS
 BEGIN
     DECLARE 
-	@year varchar(4) =  SUBSTRING(@pesel, 1, 2),
+	@year varchar(4) = SUBSTRING(@pesel, 1, 2),
 	@month varchar(2) = SUBSTRING(@pesel, 3, 2), 
-	@day varchar(2) =	SUBSTRING(@pesel, 5, 2);
+	@day varchar(2) = SUBSTRING(@pesel, 5, 2);
 
     -- warunki dla roku urodzenia 1800-1899
     IF (@month > 80)
@@ -49,5 +49,5 @@ BEGIN
 			SET @year = '19' + @year;
 		END
 
-    RETURN CAST(@year + '-' + @month + '-' + @day AS date)
+    RETURN DATEFROMPARTS(@year, @month, @day)
 END;
